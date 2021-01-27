@@ -6,7 +6,7 @@ COPY heartbeat.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
 
-ENV HEARTBEATSTEP2
+ENV HEARTBEATSTEP 2
 
 ENTRYPOINT ["/entrypoint.sh"]
 
